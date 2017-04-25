@@ -3,7 +3,7 @@ set.seed(6)
 
 setwd('U:\\independent studies\\partition models\\no covariates')
 source('gibbs sampler functions.R')
-dat=read.csv('fake data.csv',as.is=T)
+dat1=read.csv('fake data.csv',as.is=T)
 
 max.regions=100
 n.regions=50
